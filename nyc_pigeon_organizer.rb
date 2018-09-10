@@ -42,17 +42,6 @@ def nyc_pigeon_organizer(data)
   new_pigeon_dict
 end
 
-def test
-  x = ["Mary", "Mike", "Kevin"]
-  if x.include?("Mary") == true
-    puts "it worked"
-  else
-    puts "it didn't work"
-  end 
-end
-
-test
-
   
 
 puts nyc_pigeon_organizer(pigeon_data)
