@@ -27,9 +27,7 @@ def nyc_pigeon_organizer(data)
           second_layer_dict[attribute_name] = attribute_description.to_s
           new_pigeon_dict[name] = second_layer_dict
         elsif new_pigeon_dict.keys.include?(name) == true
-          second_layer_dict = {}
-          second_layer_dict[attribute_name] = attribute_description.to_s
-          new_pigeon_dict[name] = second_layer_dict
+          new_pigeon_dict[name][attribute_name] = attribute_description.to_s
         else
           apple = 1
         end 
