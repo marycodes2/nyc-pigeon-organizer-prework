@@ -24,7 +24,6 @@ def nyc_pigeon_organizer(data)
       pigeon_name.each do |name|
         if new_pigeon_dict.keys.empty? == true
           new_pigeon_dict[name] = ""
-          new_pigeon_dict.keys.include? name
         elsif new_pigeon_dict.keys.include? name == false
           puts "hi"
           second_layer_dict = {}
