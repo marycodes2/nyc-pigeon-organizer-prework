@@ -22,12 +22,12 @@ def nyc_pigeon_organizer(data)
   data.each do |attribute_name, attribute_data|
     attribute_data.each do |attribute_description, pigeon_name|
       pigeon_name.each do |name|
-        if new_pigeon_dict.keys.include? name == false
+        if new_pigeon_dict.keys.include?(name) == false
           puts "hi"
           second_layer_dict = {}
           second_layer_dict[attribute_name] = attribute_description.to_s
           new_pigeon_dict[name] = second_layer_dict
-        elsif new_pigeon_dict.keys.include? name == true
+        elsif new_pigeon_dict.keys.include?(name) == true
           second_layer_dict = {}
           second_layer_dict[attribute_name] = attribute_description.to_s
           new_pigeon_dict[name] = second_layer_dict
