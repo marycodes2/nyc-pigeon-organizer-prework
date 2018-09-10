@@ -48,6 +48,7 @@ def test
     puts "it worked"
   else
     puts "it didn't work"
+  end 
 end
 
 test
