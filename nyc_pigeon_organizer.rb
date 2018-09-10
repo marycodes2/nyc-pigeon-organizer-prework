@@ -44,4 +44,4 @@ def nyc_pigeon_organizer(data)
 end
   
 
-puts nyc_pigeon_organizer(pigeon_data)
+nyc_pigeon_organizer(pigeon_data)
