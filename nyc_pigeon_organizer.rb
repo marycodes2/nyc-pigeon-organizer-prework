@@ -34,7 +34,7 @@ def nyc_pigeon_organizer(data)
           new_pigeon_dict[name] = second_layer_dict
           puts new_pigeon_dict
         else
-          puts "whoops"
+          puts "didn't woork"
         end 
 
       end 
