@@ -22,7 +22,6 @@ def nyc_pigeon_organizer(data)
   data.each do |attribute_name, attribute_data|
     attribute_data.each do |attribute_description, pigeon_name|
       pigeon_name.each do |name|
-        puts new_pigeon_dict.keys.class
         if new_pigeon_dict.keys.include? name == false
           puts "hi"
           second_layer_dict = {}
