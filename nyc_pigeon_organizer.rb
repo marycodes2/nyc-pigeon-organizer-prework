@@ -22,6 +22,7 @@ def nyc_pigeon_organizer(data)
   data.each do |attribute_name, attribute_data|
     attribute_data.each do |attribute_description, pigeon_name|
       pigeon_name.each do |name|
+        puts name
         if new_pigeon_dict.keys.empty? == true
           new_pigeon_dict[name] = ""
         elsif new_pigeon_dict.keys.include? name == false
