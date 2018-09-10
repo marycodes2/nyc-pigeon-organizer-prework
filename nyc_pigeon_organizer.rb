@@ -44,7 +44,7 @@ end
 
 def test
   x = ["Mary", "Mike", "Kevin"]
-  if x.keys.include? "Mary" == true
+  if x.include? "Mary" == true
     puts "it worked"
   else
     puts "it didn't work"
