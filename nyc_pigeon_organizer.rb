@@ -33,7 +33,7 @@ def nyc_pigeon_organizer(data)
           attribute_array << attribute_description.to_s
           new_pigeon_dict[name][attribute_name] = attribute_array
         elsif new_pigeon_dict[name][attribute_name].empty? == false
-          
+          puts "hello"
         else
           apple = 1
         end 
