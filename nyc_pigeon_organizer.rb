@@ -37,7 +37,6 @@ def nyc_pigeon_organizer(data)
         else
           puts "hello" 
         end 
-
       end 
     end 
   end
