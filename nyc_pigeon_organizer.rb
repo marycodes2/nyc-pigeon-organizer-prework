@@ -25,6 +25,7 @@ def nyc_pigeon_organizer(data)
         if new_pigeon_dict.keys.empty? == true
           new_pigeon_dict[name] = ""
           puts new_pigeon_dict.keys
+          puts name
         elsif new_pigeon_dict.keys.include? name == false
           puts "hi"
           second_layer_dict = {}
