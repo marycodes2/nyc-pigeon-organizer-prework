@@ -43,6 +43,4 @@ def nyc_pigeon_organizer(data)
   new_pigeon_dict
 end
 
-  
-
 puts nyc_pigeon_organizer(pigeon_data)
