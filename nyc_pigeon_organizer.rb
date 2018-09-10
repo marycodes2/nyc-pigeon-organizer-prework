@@ -28,13 +28,12 @@ def nyc_pigeon_organizer(data)
           second_layer_dict = {}
           second_layer_dict[attribute_name] = attribute_array
           new_pigeon_dict[name] = second_layer_dict
-        elsif new_pigeon_dict.keys.include?(name) == true 
+        elsif new_pigeon_dict.keys.include?(name) == true and new_pigeon_dict[name].keys.include?(attribute_name) == true
           attribute_array = []
           attribute_array << attribute_description.to_s
           new_pigeon_dict[name][attribute_name] = attribute_array
         elsif new_pigeon_dict[name][attribute_name].empty? == false
           puts "hello"
-          puts new_pigeon_dict
         else
           puts 
         end 
