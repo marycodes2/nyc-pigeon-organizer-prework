@@ -23,7 +23,6 @@ def nyc_pigeon_organizer(data)
     attribute_data.each do |attribute_description, pigeon_name|
       pigeon_name.each do |name|
         if new_pigeon_dict.keys.include?(name) == false
-          puts "hi"
           second_layer_dict = {}
           second_layer_dict[attribute_name] = attribute_description.to_s
           new_pigeon_dict[name] = second_layer_dict
@@ -31,7 +30,6 @@ def nyc_pigeon_organizer(data)
           second_layer_dict = {}
           second_layer_dict[attribute_name] = attribute_description.to_s
           new_pigeon_dict[name] = second_layer_dict
-          puts new_pigeon_dict
         else
           apple = 1
         end 
