@@ -41,6 +41,17 @@ def nyc_pigeon_organizer(data)
   end
   new_pigeon_dict
 end
+
+def test
+  x = ["Mary", "Mike", "Kevin"]
+  if x.keys.include? "Mary" == true
+    puts "it worked"
+  else
+    puts "it didn't work"
+end
+
+test
+
   
 
 puts nyc_pigeon_organizer(pigeon_data)
